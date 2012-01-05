@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/p4wifi.mk
+    $(LOCAL_DIR)/p5wifi.mk

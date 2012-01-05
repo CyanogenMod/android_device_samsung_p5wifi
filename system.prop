@@ -6,4 +6,4 @@ wifi.interface=eth0
 rild.libpath=/system/lib/libsec-ril-apalone.so
 rild.libargs=-d /dev/ttys0
 keyguard.no_require_sim=yes
-
+ro.sf.hwrotation=90

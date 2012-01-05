@@ -8,7 +8,8 @@ for FILE in `cat proprietary-files.txt`; do
     if [ ! -d $BASE/$DIR ]; then
         mkdir -p $BASE/$DIR
     fi
-    adb pull /system/$FILE $BASE/$FILE
+    unzip -j -o ../../../p5wifi_update.zip system/$FILE -d $BASE/$DIR
+#    adb pull /system/$FILE $BASE/$FILE
 done
 
 ./setup-makefiles.sh
