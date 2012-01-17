@@ -22,7 +22,7 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 # Use the non-open-source parts, if they're present
 -include vendor/samsung/p5wifi/BoardConfigVendor.mk
 
-TARGET_OTA_ASSERT_DEVICE := p5wifi,GT-P7300
+TARGET_OTA_ASSERT_DEVICE := p5wifi,p5,GT-P7300,GT-P7310
 
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 606076928
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 14472970240
