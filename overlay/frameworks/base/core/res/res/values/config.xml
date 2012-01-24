@@ -25,7 +25,7 @@
     <bool name="config_sms_capable">false</bool>
 
     <!-- The default iface on which to monitor data use -->
-    <string name="config_datause_iface">wlan0</string>
+    <string name="config_datause_iface">eth0</string>
 
     <!-- Array of ConnectivityManager.TYPE_xxxx values allowable for tethering -->
     <!-- Common options are [1, 4] for TYPE_WIFI and TYPE_MOBILE_DUN or

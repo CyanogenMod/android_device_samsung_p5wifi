@@ -33,6 +33,9 @@ $(call inherit-product, device/samsung/p5-common/p5-common.mk)
 
 $(call inherit-product-if-exists, vendor/samsung/p5wifi/p5wifi-vendor.mk)
 
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay
+
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 PRODUCT_NAME := p5wifi
 PRODUCT_DEVICE := p5wifi
