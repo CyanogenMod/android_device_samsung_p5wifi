@@ -28,7 +28,7 @@
     <bool name="config_sms_capable">false</bool>
 
     <!-- The default iface on which to monitor data use -->
-    <string name="config_datause_iface">eth0</string>
+    <string name="config_datause_iface">wlan0</string>
 
     <!-- Array of ConnectivityManager.TYPE_xxxx values allowable for tethering -->
     <!-- Common options are [1, 4] for TYPE_WIFI and TYPE_MOBILE_DUN or
@@ -53,7 +53,7 @@
     <string-array translatable="false" name="networkAttributes">
         <item>"wifi,1,1,1,-1,true"</item>
         <item>"bluetooth,7,7,0,-1,true"</item>
-        <item>"wifi_p2p,13,1,0,-1,false"</item>
+        <item>"wifi_p2p,13,1,0,-1,true"</item>
     </string-array>
 
     <!-- This string array should be overridden by the device to present a list of radio

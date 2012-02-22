@@ -22,7 +22,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_KERNEL):kernel
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/modules/dhd.ko:system/lib/modules/dhd.ko
+    $(LOCAL_PATH)/modules/bcmdhd.ko:system/lib/modules/bcmdhd.ko
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
